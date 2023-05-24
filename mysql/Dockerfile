@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel9/mariadb-105:latest
+FROM docker.io/mariadb:latest
 
 VOLUME /data
 

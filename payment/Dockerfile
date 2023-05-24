@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM ubi8/python-39:latest
 
 EXPOSE 8080
 USER root
