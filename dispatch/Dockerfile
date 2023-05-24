@@ -1,4 +1,4 @@
-FROM ubi8/go-toolset:latest
+FROM golang:latest
 
 WORKDIR /go/src/app
 

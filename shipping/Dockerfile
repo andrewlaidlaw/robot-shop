@@ -1,9 +1,7 @@
 #
 # Build
 #
-FROM debian:10 AS build
-
-RUN apt-get update && apt-get -y install maven
+FROM docker.io/ppc64le/maven:3.6-jdk-11-openj9 AS build
 
 WORKDIR /opt/shipping
 
@@ -15,7 +13,7 @@ RUN mvn package
 #
 # Run
 #
-FROM openjdk:8-jdk
+FROM docker.io/library/ibmjava:8
 
 EXPOSE 8080
 
