@@ -1,4 +1,4 @@
-FROM mysql:5.7
+FROM rhel9/mariadb-105:latest
 
 VOLUME /data
 
