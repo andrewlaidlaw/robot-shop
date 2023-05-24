@@ -1,4 +1,4 @@
-FROM golang:1.17
+FROM ubi8/go-toolset:latest
 
 WORKDIR /go/src/app
 

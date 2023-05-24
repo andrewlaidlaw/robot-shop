@@ -1,4 +1,4 @@
-FROM rhel9/mariadb-105:latest
+FROM registry.redhat.io/rhel9/mariadb-105:latest
 
 VOLUME /data
 
