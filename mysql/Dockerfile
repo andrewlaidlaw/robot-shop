@@ -1,4 +1,4 @@
-FROM docker.io/ubuntu/mysql:latest
+FROM ppc64le/mariadb:latest
 
 VOLUME /data
 
