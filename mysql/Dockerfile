@@ -1,4 +1,4 @@
-FROM docker.io/mariadb:latest
+FROM docker.io/mysql:latest
 
 VOLUME /data
 
