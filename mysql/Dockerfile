@@ -1,4 +1,4 @@
-FROM ppc64le/mariadb:latest
+FROM mariadb:latest
 
 VOLUME /data
 
