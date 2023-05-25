@@ -1,4 +1,4 @@
-FROM docker.io/mysql:latest
+FROM docker.io/ubuntu/mysql:latest
 
 VOLUME /data
 
